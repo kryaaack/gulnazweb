@@ -1,0 +1,113 @@
+$yellow: #f3ca2f
+$grey: #272727
+$black: #000
+$white: #fff    
+
+*
+    font-family: 'Poppins'
+    box-sizing: border-box
+
+body
+    padding: 0
+    margin: 0
+
+.nameOfPage
+    color: $white
+    font-size: 11px
+    text-transform: uppercase
+    position: absolute
+    left: 25px
+    top: 50%
+    transform: translateY(-50%)
+    transform: rotate(-90deg)
+    transform-origin: left
+
+.header
+    position: fixed
+    display: flex
+    padding-left: 25px  
+    padding-top: 25px
+    .header__logo
+        color: $white
+        height: 30px
+        img
+            height: 100%
+    .header__links
+        color: $white
+        margin-left: 150px
+        display: flex
+        flex-direction: row
+        &-link
+            color: $white
+            &:not(:first-child)
+                margin-left: 10px
+    .header__burger
+        color: $white
+        margin-left: 820px
+                
+.text
+    font-size: 11px
+    opacity: 0.8
+    color: $white
+
+.op1
+    opacity: 1
+.mt25
+    margin-top: 25px
+
+.title
+    margin-top: 30px
+    font-size: 50px 
+    font-weight: 600
+    color: $white
+    text-transform: uppercase
+    span
+        color: $yellow
+.subtitle
+    font-weight: 500
+    font-size: 30px
+
+
+.container  
+    padding-left: 240px
+    padding-right: 240px
+.mainpage
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background-color: $grey
+    hr
+        margin-top: 100px
+        border-radius: 5px  
+        height: 2px
+        border-color: $yellow
+        width: 100px
+        margin-left: 0
+
+
+.mission
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background-color: $grey
+    &__wrapper
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        &-descr
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+        &-graph
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            progress
+                width: 300px
+            .text
+                display: flex
+                .percent
+                    margin-left: auto

@@ -325,8 +325,8 @@ body {
       .resume__wrapper-item-descr .text {
         opacity: 1;
         margin-top: 10px; }
-        .resume__wrapper-item-descr .text:nth-child(5) {
-          margin-top: 25px;
+        .resume__wrapper-item-descr .text:nth-child(4) {
+          margin-top: 15px;
           opacity: 0.8; }
       .resume__wrapper-item-descr span {
         display: block;
@@ -423,5 +423,81 @@ body {
         font-size: 13px;
         font-weight: 700;
         margin-top: 60px; }
+
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #272727; }
+  .contact__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .contact__wrapper .form {
+      margin-top: 50px; }
+      .contact__wrapper .form__namemail {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+      .contact__wrapper .form input {
+        background-color: rgba(250, 250, 250, 0.1);
+        border: none;
+        padding: 7px;
+        height: 40px;
+        outline: none;
+        color: #fff;
+        border-radius: 2px; }
+      .contact__wrapper .form .name {
+        width: 50%;
+        margin-right: 15px; }
+      .contact__wrapper .form .mail {
+        width: 50%;
+        margin-left: 15px; }
+      .contact__wrapper .form .subject {
+        margin-top: 30px;
+        display: block;
+        width: 100%; }
+      .contact__wrapper .form .message {
+        margin-top: 30px;
+        width: 100%;
+        height: 180px;
+        background-color: rgba(250, 250, 250, 0.1);
+        border: none;
+        padding: 7px;
+        outline: none;
+        color: #fff;
+        border-radius: 2px;
+        resize: none; }
+      .contact__wrapper .form .send {
+        margin-top: 20px;
+        height: 50px;
+        width: 100px;
+        background-color: #000;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 2px; }
 
 /*# sourceMappingURL=style.css.map */
